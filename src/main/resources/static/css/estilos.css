@@ -1,0 +1,17 @@
+.contenedor{
+	
+	margin:60px auto;
+	width:700px;
+	border:5px solid white;
+	border-radius:10px;
+	display:grid;
+	grid-gap:3px;
+	grid-template-columns: 1, 1fr;
+	grid-template-rows: repeat(2,auto);
+	grid-template-areas: "usuario"
+						 "formulario";
+}
+
+.contenedor .usuario{
+	background-color: blue;
+}
